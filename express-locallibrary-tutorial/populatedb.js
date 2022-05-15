@@ -175,7 +175,7 @@ function createBookInstances(cb) {
           bookInstanceCreate(books[1], ' Gollancz, 2011.', false, 'Loaned', callback)
         },
         function(callback) {
-          bookInstanceCreate(books[2], ' Gollancz, 2015.', false, false, callback)
+          bookInstanceCreate(books[2], ' Gollancz, 2015.', false, 'Loaned', callback)
         },
         function(callback) {
           bookInstanceCreate(books[3], 'New York Tom Doherty Associates, 2016.', false, 'Available', callback)
