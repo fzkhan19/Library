@@ -6,7 +6,7 @@ var BookInstanceSchema = new Schema(
     {
         book: {type: Schema.Types.ObjectId, ref: 'Book', required: true},
         imprint: {type: String, required: true},
-        due_date: {type: Date, default: Date.now},
+        due_back: {type: Date, default: Date.now},
         status: {type: String, enum:['Available', 'Maintenance', 'Loaned', 'Reserved'], default: 'Maintenance'}
     }
 );
